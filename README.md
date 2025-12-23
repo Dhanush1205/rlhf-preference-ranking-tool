@@ -27,13 +27,3 @@ A fast, minimalistic, and effective tool for comparison-based labeling of model 
 2. **Label**: Read the prompt and both responses. Click the button corresponding to the better response.
 3. **Finish**: When done, you'll see a summary page. You can close the tab or restart.
 4. **Export**: Your labels are saved in `labels.csv` in the project directory.
-
-## 🎓 Why this project is useful for RLHF internships
-
-Reinforcement Learning from Human Feedback (RLHF) is the engine behind modern LLMs like ChatGPT and Gemini. This project demonstrates core competencies for working in AI alignment:
-
-1.  **Human Preference Annotation**: You are building the exact tool interfaces that human labelers use to teach models what is "helpful and harmless".
-2.  **Response Ranking**: It models the "Reward Modeling" phase of RLHF, where a model learns to predict human preferences between two outputs.
-3.  **Understanding Alignment Workflows**: It shows you understand how raw model outputs are converted into a training signal (the preference dataset).
-4.  **Dataset Creation**: By running this tool, you are actively creating a dataset (`labels.csv`) that could be used to train a Reward Model.
-5.  **Evaluation UX Design**: It highlights the importance of clean UI/UX in reducing cognitive load for annotators, ensuring higher quality data.
